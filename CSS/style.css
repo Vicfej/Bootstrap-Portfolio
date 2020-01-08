@@ -1,0 +1,49 @@
+*{
+    /* background: lightblue; */
+}
+.container img {
+    height: 100px;
+    width: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.navs{
+    margin-left: auto;
+}
+.jumbotron{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    font-family: 'DM Serif Display', serif;
+}
+.quote{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: none;
+}
+.container .lead{
+    /* float: right; */
+    display: flex;
+    
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+}
