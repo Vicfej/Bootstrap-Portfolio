@@ -1,3 +1,5 @@
+.container{
+}
 .logo{
     margin: 15px;
 }
@@ -34,7 +36,9 @@ a button:hover{
 .jumbotron{
     display: flex;
     justify-content: space-around;
+    background-image: url(Images/desert-flowers.jpg);
 }
+
 .name{
     font-family: 'DM Serif Display', serif;
 }
@@ -47,6 +51,12 @@ a button:hover{
     /* float: right; */
     display: flex;
     
+}
+.skills{
+  margin-top: 50px;
+}
+h2{
+    padding: 25px;
 }
 .description{
     display: flex;
@@ -67,3 +77,21 @@ h2{
     justify-content: space-around;
     
 }
+.card1 img{
+background: #f5dea3;
+padding: 20px;
+height: 400px;
+width: auto;
+}
+.card2 img{
+    background: #02a8a8;
+}
+.card3 img{
+    background: #02a8a8;
+}
+.card4 img{
+    background: #f5dea3;
+}
+/* .col mb-4{
+    border-box: 10px;
+} */
