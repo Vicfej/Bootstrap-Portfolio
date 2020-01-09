@@ -37,23 +37,34 @@ a button:hover{
 .jumbotron{
     display: flex;
     justify-content: space-around;
+    background-image: url("../Images/blooming-flowers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;  
+    opacity: 0.9;
 }
+.name,.quote > .jumbotron{
+    color: white;
+}
+
 .image img{
     width: 50%;
 }
 .name{
+    display: block;
+    margin-right: 50%;
     font-family: 'DM Serif Display', serif;
+    font-size: x-large;
 }
 .quote{
     display: flex;
     width: 50%;
     flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
+    font-size:;
 }
 .container .lead{
-    /* float: right; */
     display: flex;
-    
 }
 .skills{
   margin-top: 50px;
@@ -139,3 +150,8 @@ h5,.mail{
 /* .col mb-4{
     border-box: 10px;
 } */
+@media screen and (max-width:600px){
+    .icons{
+        display: inline-block;
+    }
+}
