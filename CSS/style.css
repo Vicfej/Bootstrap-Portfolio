@@ -1,10 +1,11 @@
-.container{
-}
 .logo{
     margin: 15px;
 }
 li a{
     color: black;
+}
+li a:hover{
+    color: #02a8a8;
 }
 .container img {
     height: 100px;
@@ -61,7 +62,7 @@ a button:hover{
     width: 50%;
     flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
-    font-size:;
+    /* font-size:; */
 }
 .container .lead{
     display: flex;
@@ -73,8 +74,13 @@ h2{
     padding: 25px;
     font-family: 'Raleway', sans-serif;
 }
-h3{
+.icons h4{
+    display: flex;
+    justify-content: center;
     font-family: 'Raleway', sans-serif;
+}
+h4{
+    margin-top: 20px;
 }
 .description{
     display: flex;
@@ -83,6 +89,7 @@ h3{
     flex-wrap: wrap;
     margin: auto;
     width: 50%;
+    font-family: 'Raleway', sans-serif;
 }
 h2{
     display: flex;
@@ -95,20 +102,46 @@ h2{
     justify-content: space-around;
     
 }
+.card1{
+    width: auto;
+    height: 400px; 
+    background: #f5dea3;
+    box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
+}
 .card1 img{
-background: #f5dea3;
-padding: 20px;
-height: 400px;
-width: auto;
+    padding: 20px;
+    height: 400px;
+    width: auto; 
+}
+.card2{
+    box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
 }
 .card2 img{
     background: #02a8a8;
+    padding: 20px;
+    height: 400px;
+    width: auto;
 }
-.card3 img{
+.images{
     background: #02a8a8;
 }
-.card4 img{
+.card3{
+    box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
+}
+.card3 img{
+    padding: 20px;
+    height: 400px;
+    width: auto;
+}
+.card4{
     background: #f5dea3;
+    box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
+}
+.card4 img{
+    /* background: #f5dea3; */
+    padding: 20px;
+    height: 400px;
+    width: auto;
 }
 .card-body{
     font-family: 'Raleway', sans-serif;
