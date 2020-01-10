@@ -97,9 +97,6 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-.icons{
-    /* background: #a2c9b6;  */
-}
 .work{
     margin: 20px;
 }
@@ -152,10 +149,6 @@ h2{
 .card-body{
     font-family: 'Raleway', sans-serif;
 }
-/* .card-img-top1{
-    width: auto;
-    height: 450px;
-} */
 .footer{
     display: flex;
     justify-content: space-between;
