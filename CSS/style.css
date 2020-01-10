@@ -47,7 +47,6 @@ a button:hover{
 .name,.quote > .jumbotron{
     color: white;
 }
-
 .image img{
     width: 50%;
 }
@@ -67,13 +66,6 @@ a button:hover{
 .container .lead{
     display: flex;
 }
-.skills{
-  margin-top: 50px;
-}
-h2{
-    padding: 25px;
-    font-family: 'Raleway', sans-serif;
-}
 .icons h4{
     display: flex;
     justify-content: center;
@@ -88,9 +80,13 @@ h4{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 50%;
+    width: 40%;
     font-family: 'Raleway', sans-serif;
 }
+.skills{
+    margin: 50px;
+    padding: 50px;
+  }
 h2{
     display: flex;
     justify-content: center;
@@ -100,24 +96,31 @@ h2{
 .icon-container{
     display: flex;
     justify-content: space-around;
-    
+}
+.icons{
+    /* background: #a2c9b6;  */
+}
+.work{
+    margin: 20px;
+}
+.card{
+    width: 400px;
+    height: 400px;
 }
 .card1{
-    width: auto;
-    height: 400px; 
-    background: #f5dea3;
     box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
+    background: #f5dea3;
 }
 .card1 img{
     padding: 20px;
     height: 400px;
-    width: auto; 
+    width: auto;    
 }
 .card2{
+    background: #a2c9b6;
     box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
 }
 .card2 img{
-    background: #02a8a8;
     padding: 20px;
     height: 400px;
     width: auto;
@@ -138,14 +141,21 @@ h2{
     box-shadow: 1px 3px 15px -3px rgba(0,0,0,0.78);
 }
 .card4 img{
-    /* background: #f5dea3; */
+    background: #f5dea3;
     padding: 20px;
     height: 400px;
     width: auto;
 }
 .card-body{
+    background: white;
+}
+.card-body{
     font-family: 'Raleway', sans-serif;
 }
+/* .card-img-top1{
+    width: auto;
+    height: 450px;
+} */
 .footer{
     display: flex;
     justify-content: space-between;
