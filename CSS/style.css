@@ -1,3 +1,4 @@
+/* Navbar */
 .logo{
     margin: 15px;
 }
@@ -35,6 +36,7 @@ a button:hover{
     outline: none;
     cursor: pointer;
 }
+/* Jumbotron */
 .jumbotron{
     display: flex;
     justify-content: space-around;
@@ -183,11 +185,21 @@ h5,.mail{
 .mail img,h5{
     display: inline-block;
 }
-/* .col mb-4{
-    border-box: 10px;
-} */
 @media screen and (max-width:600px){
-    .icons{
-        display: inline-block;
+    .icon-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+    .icons h4{
+        display: block;
+    }
+    .nav-link{
+        display: block;
+        justify-content: center;
+    }
+    .contact-email{
+        display: block;
     }
 }
