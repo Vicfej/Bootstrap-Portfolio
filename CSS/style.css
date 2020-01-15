@@ -36,6 +36,12 @@ a button:hover{
     outline: none;
     cursor: pointer;
 }
+.dropdown{
+    display: none;
+}
+.contact-me{
+    display: none;
+}
 /* Jumbotron */
 .jumbotron{
     display: flex;
@@ -186,6 +192,12 @@ h5,.mail{
     display: inline-block;
 }
 @media screen and (max-width:600px){
+    .navs{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
     .icon-container{
         display: block;
         justify-content: center;
@@ -201,5 +213,9 @@ h5,.mail{
     }
     .contact-email{
         display: block;
+    }
+    .dropdown{
+        display: flex;
+        justify-content: flex-end;
     }
 }
