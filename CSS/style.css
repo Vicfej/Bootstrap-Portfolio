@@ -117,12 +117,12 @@ label{
     /* font-size:; */
 }
 /* Skills */
-.icons h4{
+.icons, h4{
     display: block;
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-}
+} 
 .description{
     display: flex;
     justify-content: center;
@@ -133,9 +133,9 @@ label{
     font-family: 'Raleway', sans-serif;
 }
 .skills{
-    margin: 50px;
+    margin: 40px;
     padding: 50px;
-  }
+}
 h2{
     display: flex;
     justify-content: center;
@@ -239,14 +239,39 @@ h5,.mail{
     .navs{
         display: none;
     }
+    .button-contain{
+        background-color: #02a8a8;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .dropdown{
+        display: inline-block;
+        margin-left: 50%;
+    }
+    a .dropdown-item{
+        text-decoration: none;
+    }
+    a .dropdown-item:hover{
+        background-color:  #02a8a8;
+        color: #fff;
+    }
     .contact{
         display: none;
+    }
+    .description{
+        width: 50%;
+    }
+    .skills{
+        width: auto;
     }
     .icon-container{
         display: block;
         justify-content: center;
         align-items: center;
         margin-left: 30%;
+    }
+    .icons{
+        padding: 20px;
     }
     .icons h4{
         display: block;
@@ -258,8 +283,13 @@ h5,.mail{
     .contact-email{
         display: block;
     }
-    .dropdown{
-        display: flex;
-        justify-content: flex-end;
+    .footer{
+        display: block;
+        width: 50%;
+    }
+    .footer-left, .contact-email{
+        display: block;
+        justify-content: center;
+        align-items: center;
     }
 }
