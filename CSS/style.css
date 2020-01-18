@@ -4,10 +4,29 @@
 }
 li a{
     color: black;
+    display: block;
+    position: relative;
 }
 li a:hover{
     color: #02a8a8;
 }
+li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #02a8a8;
+    visibility: hidden;
+}
+li a:hover:before{
+    visibility: visible;
+    transform: scaleY(1);
+}
+/* .container{
+    background-image: url("../Images/blooming-flowers.jpg");
+} */
 .container img {
     height: 100px;
     width: 100px;
@@ -19,6 +38,10 @@ li a:hover{
 }
 .navs{
     margin-left: auto;
+    padding: 20px;
+}
+.container .lead{
+    display: flex;
 }
 a button{
     outline: none;
@@ -27,20 +50,42 @@ a button{
     background-color: #02a8a8;
     color: white;
 }
-button{
+button {
     border: none;
+    outline: none !important;
 }
 a button:hover{
     background-color: #018383;
     transition: all 0.3s ease;
     outline: none;
     cursor: pointer;
+    border: none;
 }
 .dropdown{
     display: none;
 }
 .contact-me{
-    display: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    text-decoration: none;
+    margin: 10px;
+}
+label{
+    margin: 10px;
+}
+.contact-me h2{
+    font-family: 'Raleway', sans-serif;
+}
+#message{
+    height: 70px;
+}
+#name, #email, #message,.send{
+    display: block;
+    margin: 10px;
 }
 /* Jumbotron */
 .jumbotron{
@@ -71,16 +116,12 @@ a button:hover{
     font-family: 'Raleway', sans-serif;
     /* font-size:; */
 }
-.container .lead{
-    display: flex;
-}
+/* Skills */
 .icons h4{
-    display: flex;
+    display: block;
     justify-content: center;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
-}
-h4{
-    margin-top: 20px;
 }
 .description{
     display: flex;
@@ -105,6 +146,7 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+/* Work */
 .work{
     margin: 20px;
 }
@@ -157,6 +199,7 @@ h2{
 .card-body{
     font-family: 'Raleway', sans-serif;
 }
+/* Footer */
 .footer{
     display: flex;
     justify-content: space-between;
@@ -191,6 +234,7 @@ h5,.mail{
 .mail img,h5{
     display: inline-block;
 }
+/* Responsive for mobile */
 @media screen and (max-width:600px){
     .navs{
         display: none;
